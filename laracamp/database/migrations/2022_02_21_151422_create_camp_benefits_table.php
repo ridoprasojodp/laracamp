@@ -20,7 +20,7 @@ return new class extends Migration
             // $table->unsignedBigInteger('camp_id');
 
             //2nd method
-            $table->foreignId('camp_id')->constrained();
+            $table->foreignId('camps_id')->constrained();
             $table->string('name');
             $table->timestamps();
 
